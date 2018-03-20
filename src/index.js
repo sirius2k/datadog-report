@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-var element = React.createElement('h1', { className : 'greeting'}, 'Hello World!');
+var element = React.createElement('div', { className : 'greeting'}, '');
 
 ReactDOM.render(element, document.getElementById('root'));
 // TODO : Remove below code if it is not neccesary
