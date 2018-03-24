@@ -20,5 +20,8 @@
         "constructor-super": "warn",
         "valid-typeof": "warn",
         "no-extra-semi": "error"
-    }
+    },
+    "extends": [
+        "plugin:react/recommended"
+    ]
 }
