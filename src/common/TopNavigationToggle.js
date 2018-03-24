@@ -10,6 +10,7 @@ class TopNavigationToggle extends Component {
     }
 
     handleClick() {
+		console.log('clicked - menu toggle');
         alert("1234");
     }
 
