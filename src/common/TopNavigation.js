@@ -1,13 +1,12 @@
 import React from 'react';
+import TopNavigationToggle from './TopNavigationToggle';
 
 const TopNavigation = (props) => {
     return (
         <div className="top_nav">
           <div className="nav_menu">
             <nav>
-              <div className="nav toggle">
-                <a id="menu_toggle"><i className="fa fa-bars"></i></a>
-              </div>
+              <TopNavigationToggle/>
               <ul className="nav navbar-nav navbar-right">
                 <li className="">
                   <a href="javascript:;" className="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
