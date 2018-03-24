@@ -142,7 +142,7 @@ $MENU_TOGGLE.on('click', function() {
 			mouseWheel:{ preventDefault: true }
 		});
 	}
-};
+}
 // /Sidebar
 
 	var randNum = function() {
@@ -585,7 +585,7 @@ if (typeof NProgress != 'undefined') {
 				}
 			}], chart_plot_03_settings);
 			
-		};
+		}
 	  
 	} 
 	
@@ -611,7 +611,7 @@ if (typeof NProgress != 'undefined') {
 		  $('.stars-count-existing').html(value);
 		});
 		
-	  };
+	  }
 	
 	
 	function init_JQVmap(){
@@ -656,7 +656,7 @@ if (typeof NProgress != 'undefined') {
 			
 			}
 			
-	};
+	}
 			
 	    
 	function init_skycons(){
@@ -914,7 +914,7 @@ if (typeof NProgress != 'undefined') {
 			});
 
 			
-		};   
+		}
 	   
 	   
 	   /* AUTOCOMPLETE */
@@ -938,7 +938,7 @@ if (typeof NProgress != 'undefined') {
 			  lookup: countriesArray
 			});
 			
-		};
+		}
 	   
 	 /* AUTOSIZE */
 			
@@ -950,7 +950,7 @@ if (typeof NProgress != 'undefined') {
 			
 			}
 			
-		};  
+		} 
 	   
 	   /* PARSLEY */
 			
@@ -997,7 +997,7 @@ if (typeof NProgress != 'undefined') {
 				hljs.initHighlightingOnLoad();
 			  } catch (err) {}
 			
-		};
+		}
 	   
 		
 		  /* INPUTS */
@@ -1025,7 +1025,7 @@ if (typeof NProgress != 'undefined') {
 				
 				}
 				
-		    };
+		    }
 	   
 		/* SELECT2 */
 	  
@@ -1045,7 +1045,7 @@ if (typeof NProgress != 'undefined') {
 			  allowClear: true
 			});
 			
-		};
+		}
 	   
 	   /* WYSIWYG EDITOR */
 
@@ -1119,7 +1119,7 @@ if (typeof NProgress != 'undefined') {
         window.prettyPrint;
         prettyPrint();
 	
-    };
+    }
 	  
 	/* CROPPER */
 		
@@ -1352,7 +1352,7 @@ if (typeof NProgress != 'undefined') {
 			}
 			
 			
-		};
+		}
 		
 		/* CROPPER --- end */  
 	  
@@ -1460,7 +1460,7 @@ if (typeof NProgress != 'undefined') {
 				  }
 				});
 				
-		};
+		}
 	 
 		/* INPUT MASK */
 			
@@ -1471,7 +1471,7 @@ if (typeof NProgress != 'undefined') {
 			
 				$(":input").inputmask();
 				
-		};
+		}
 	  
 		/* COLOR PICKER */
 			 
@@ -1494,7 +1494,7 @@ if (typeof NProgress != 'undefined') {
 
 				$('.demo-auto').colorpicker();
 			
-		}; 
+		}
 	   
 	   
 		/* ION RANGE SLIDER */
@@ -1565,7 +1565,7 @@ if (typeof NProgress != 'undefined') {
 			  }
 			});
 			
-		};
+		}
 	   
 	   
 	   /* DATERANGEPICKER */
@@ -1795,7 +1795,7 @@ if (typeof NProgress != 'undefined') {
 			$('.buttonPrevious').addClass('btn btn-primary');
 			$('.buttonFinish').addClass('btn btn-default');
 			
-		};
+		}
 	   
 	   
 	  /* VALIDATOR */
@@ -1833,7 +1833,7 @@ if (typeof NProgress != 'undefined') {
         return false;
 		});
 	  
-	  };
+	  }
 	   
 	  	/* PNotify */
 			
@@ -1841,7 +1841,7 @@ if (typeof NProgress != 'undefined') {
 			
 			if( typeof (PNotify) === 'undefined'){ return; }
 			console.log('init_PNotify');
-		}; 
+		} 
 	   
 	   
 	   /* CUSTOM NOTIFICATION */
@@ -1899,7 +1899,7 @@ if (typeof NProgress != 'undefined') {
 			  $('#notif-group div').first().css('display', 'block');
 			});
 			
-		};
+		}
 		
 			/* EASYPIECHART */
 			
@@ -1958,7 +1958,7 @@ if (typeof NProgress != 'undefined') {
 				  }
 				});
 				
-			};
+			}
 	   
 		
 		function init_charts() {
@@ -2375,7 +2375,7 @@ if (typeof NProgress != 'undefined') {
 				$('.compose').slideToggle();
 			});
 		
-		};
+		}
 	   
 	   	/* CALENDAR */
 		  
@@ -2478,7 +2478,7 @@ if (typeof NProgress != 'undefined') {
 				  }]
 				});
 				
-			};
+			}
 	   
 		/* DATA TABLES */
 			
@@ -2565,7 +2565,7 @@ if (typeof NProgress != 'undefined') {
 
 				TableManageButtons.init();
 				
-			};
+			}
 	   
 			/* CHART - MORRIS  */
 		
@@ -2720,9 +2720,8 @@ if (typeof NProgress != 'undefined') {
 				  $(window).resize();
 				});
 			
-			}
-			
-		};
+			}			
+		}
 	   
 		
 		
