@@ -1,6 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-class TopNavigationToggle extends Component {
+class TopNavigationToggle extends React.Component {
+    static get propTypes() {
+        return {
+            handleMenuToggle: PropTypes.func
+        }
+    }
     constuctor() {
         this.setState({
             data: null
@@ -11,7 +17,9 @@ class TopNavigationToggle extends Component {
 
     handleClick() {
 		console.log('clicked - menu toggle');
-        alert("1234");
+        alert("clicked - menu toggle");
+
+        this.props.handleMenuToggle();
     }
 
     componentDidMount() {
@@ -23,7 +31,7 @@ class TopNavigationToggle extends Component {
     render() {
         return (
             <div className="nav toggle">
-              <a id="menu_toggle" onClick={this.handleClick}><i className="fa fa-bars"></i></a>
+              <a id="menu_toggle" onClick={this.props.handleMenuToggle}><i className="fa fa-bars"></i></a>
             </div>
           );
     }
